@@ -1,0 +1,23 @@
+// User reducer types
+export const SET_AUTHENTICATED = 'SET_AUTHENTICATED'
+export const SET_UNAUTHENTICATED = 'SET_UNAUTHENTICATED'
+export const SET_MONK = 'SET_MONK'
+export const LOADING_MONK = 'LOADING_MONK'
+export const MARK_NOTIFICATIONS_READ = 'MARK_NOTIFICATIONS_READ'
+export const GET_NOTIFICATIONS = 'GET_NOTIFICATIONS'
+// UI reducer types
+export const SET_ERRORS = 'SET_ERRORS'
+export const SET_ERROR_KEY = 'SET_ERROR_KEY'
+export const LOADING_UI = 'LOADING_UI'
+export const CLEAR_ERRORS = 'CLEAR_ERRORS'
+export const LOADING_DATA = 'LOADING_DATA'
+export const STOP_LOADING_UI = 'STOP_LOADING_UI'
+// Data reducer types
+export const SET_ENGRAVES= 'SET_ENGRAVES'
+export const SET_ENGRAVE = 'SET_ENGRAVE'
+export const VOTE_ENGRAVE = 'VOTE_ENGRAVE'
+export const UNVOTE_ENGRAVE = 'UNVOTE_ENGRAVE'
+export const DELETE_ENGRAVE = 'DELETE_ENGRAVE'
+export const POST_ENGRAVE = 'POST_ENGRAVE'
+export const SUBMIT_ENLIGHTEN = 'SUBMIT_ENLIGHTEN'
+export const DELETE_ENLIGHTEN = 'DELETE_ENLIGHTEN'
